@@ -1,0 +1,61 @@
+@import url('https://fonts.cdnfonts.com/css/verdana');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Verdana', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: auto;
+    /* padding: 0px 1rem;
+    align-items: center; */
+}
+header{
+    width: 100%;
+    min-height: 70px;
+    color: #ffffff;
+    background-color: #218380;
+    padding: 4px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    width: 75%;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 140px auto;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    border: 2px solid rgba(0,0,0,0.1);
+    box-shadow: rgba(0,0,0,0.2) 5px 10px 15px;
+}
+.container h1{
+    font-weight: bolder;
+    font-size: 54px;
+}
+li{
+    list-style: none;
+    width: 100px !important;
+    text-align: center;
+    padding: 10px;
+    background-color: #218380;
+    border-radius: 10px;
+
+}
+li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
